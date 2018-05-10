@@ -23,8 +23,6 @@ function augementResultsData(pa11yResults) {
             issuesList[issue.code] = {count: 0, issues: []};
         }
 
-        console.log(issue);
-
         issuesList[issue.code].issues.push({
             message: issue.message,
             context: issue.context,
