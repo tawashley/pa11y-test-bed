@@ -7,7 +7,7 @@
 After cloning the repo...
 
 * `npm i` to grab all dependencies
-* `node run.js` to run pa11y
+* `npm test` to run pa11y
 
 A custom reporter, `pa11y-reporter-grouped.js`, is used to group the same errors together in the console.
 
